@@ -6,5 +6,6 @@ Files fall under a couple of different types, which perhaps isn't obvious within
 regPairs.ipynb is a Jupyter notebook running on a Sagemath Kernel used to find base pairs
 
 GerbiczProof.py is a python program that uses small.py, glues.py, and baseCases.py as imputs to find large Hamiltonian cycles using the algorithim outlined in Robert Gerbicz's proof
+      small.py, glues.py, and baseCases.py are copies from Roberts original code, formated to work with our Python code
 
 'A New Result on Parkers Square Sum Conjecture' is a PDF of the write up of a previous group of students research on this topic 

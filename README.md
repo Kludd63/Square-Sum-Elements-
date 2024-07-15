@@ -14,3 +14,5 @@ GerbiczProof.py is a python program that uses small.py, glues.py, and baseCases.
 'A New Result on Parkers Square Sum Conjecture' is a PDF of the write up of a previous group of students research on this topic 
 
 'The Square-Sum Problem Forum' is a PDF of the original forum thread where Robert Gerbicz and others posted their work. Since we started working on this project the forum thread has been altered so you can only access it on the original website if you have an account. Thus, we have included a PDF here if one wants to read the forum without making an account. 
+
+'Reference Links' is a PDF of links to other people's work which could be helpful when you are begining to think about this problem. After the link, there is also a brief discription of what they are and why we think they are useful. 

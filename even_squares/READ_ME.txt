@@ -5,3 +5,10 @@ This folder contains all of the files necessary for proving that 9 is the only o
 "even_squares_generate_sequences.sagews" is dedicated to creating sequences of any length using the text files created for glue and base cases.
 
 The provided text files are sufficient to prove that it is always possible to find a Hamiltonian path on the integers from 1 to n where there is an edge between them if they sum to an even square or 9. They are also sufficient to prove that there is always a path using only integers of the form 4k, using only integers of the form 4k+2, and using only odd integers.
+
+The glue can be read as follows:
+If the entry is an integer, then place that integer next in the sequence
+If the entry starts with T, then the scale the tiny sequence appropriately and shift by the value given after the T before placing it next in the sequence
+If the entry starts with RT, then the scale the tiny sequence appropriately, shift by the value given after the T, and then reverse it before placing it next in the sequence
+If the entry starts with L, then the scale the long sequence appropriately and shift by the value given after the L before placing it next in the sequence
+If the entry starts with RL, then the scale the long sequence appropriately, shift by the value given after the L, and then reverse it before placing it next in the sequence

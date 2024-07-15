@@ -1,5 +1,6 @@
 The files in this repositiory should have all of the peices to run them. 
 Files fall under a couple of different types, which perhaps isn't obvious within the file names.
+Folders all contain their own README.
 
 25PairsText, 49PairsText, 49Glues[L,c,le,re].txt are text files containing the base cases talked about in our paper, both base 'nice' pairs and glues
 

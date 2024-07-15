@@ -6,5 +6,5 @@ The provided text file is sufficient to prove that there are infinitely many Ham
 
 The glue can be read as follows:
 If the entry is an integer, then place that integer next in the sequence
-If the entry starts with a T, then the scale the sequence appropriately and shift by the value given after the T
-If the entry starts with a R, then the scale the sequence appropriately, shift by the value given after the T, and then reverse it
+If the entry starts with T, then the scale the sequence appropriately and shift by the value given after the T
+If the entry starts with RT, then the scale the sequence appropriately, shift by the value given after the T, and then reverse it

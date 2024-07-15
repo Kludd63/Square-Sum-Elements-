@@ -8,7 +8,7 @@ The provided text files are sufficient to prove that it is possible to find a Ha
 
 The glue can be read as follows:
 If the entry is an integer, then place that integer next in the sequence
-If the entry starts with T, then the scale the tiny sequence appropriately and shift by the value given after the T before placing it next in the sequence
-If the entry starts with RT, then the scale the tiny sequence appropriately, shift by the value given after the T, and then reverse it before placing it next in the sequence
-If the entry starts with L, then the scale the long sequence appropriately and shift by the value given after the L before placing it next in the sequence
-If the entry starts with RL, then the scale the long sequence appropriately, shift by the value given after the L, and then reverse it before placing it next in the sequence
+If the entry starts with T, then scale the tiny sequence appropriately and shift by the value given after the T before placing it next in the sequence
+If the entry starts with RT, then scale the tiny sequence appropriately, shift by the value given after the T, and then reverse it before placing it next in the sequence
+If the entry starts with L, then scale the long sequence appropriately and shift by the value given after the L before placing it next in the sequence
+If the entry starts with RL, then scale the long sequence appropriately, shift by the value given after the L, and then reverse it before placing it next in the sequence

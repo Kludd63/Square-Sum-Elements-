@@ -151,7 +151,7 @@ def generate_pair(n, beginning, end, multiples):
                     path2.reverse()
                 return [path, path2]
 
-def create_text_file(file_name, base_case_start, base_case_end, beginning, end, multiples):
+def create_base_cases_text_file(file_name, base_case_start, base_case_end, beginning, end, multiples):
     file = open(file_name, 'w')
 
     for i in range(base_case_start, base_case_end + 1):

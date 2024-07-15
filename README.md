@@ -2,6 +2,8 @@ The files in this repositiory should have all of the peices to run them.
 Files fall under a couple of different types, which perhaps isn't obvious within the file names.
 Folders all contain their own README.
 
+The folder names are reallitivly self explanitory. They are named after the type of generalization of Robert Gerbicz's proof. The squares folder also contains the the k=25 case which can be attributed to Gerbicz. 
+
 25PairsText, 49PairsText, 49Glues[L,c,le,re].txt are text files containing the base cases talked about in our paper, both base 'nice' pairs and glues
 
 regPairs.ipynb is a Jupyter notebook running on a Sagemath Kernel used to find base pairs

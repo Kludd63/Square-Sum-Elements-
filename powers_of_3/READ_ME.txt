@@ -7,10 +7,9 @@ This folder contains all of the files necessary for proving that it is possible 
 The provided text files are sufficient to prove that it is always possible to find a Hamiltonian path on the integers from 1 to n where there is an edge between them if they sum to a power of 3, 5 times a power of 3, 7 times a power of 3, 13 times a power of 3, or 17 times a power of 3. While several multiples must be used to guarantee a path, it is likely possible to use fewer multiples although this combination results in few base cases and little glue.
 
 The glue can be read using the following guidelines:
-The glue can be read using the following guidelines:
-The beginning length can be determined by the number of integers present in the glue
-If the entry is an integer, then place that integer next in the sequence
-If the entry starts with T, then scale the tiny sequence appropriately, shift by the value given after the T, and remove the proper number of starting integers before placing it next in the sequence
-If the entry starts with RT, then scale the tiny sequence appropriately, shift by the value given after the T, remove the proper number of starting integers, and then reverse it before placing it next in the sequence
-If the entry starts with L, then scale the long sequence appropriately, shift by the value given after the L, and remove the proper number of starting integers before placing it next in the sequence
-If the entry starts with RL, then scale the long sequence appropriately, shift by the value given after the L, remove the proper number of starting integers, and then reverse it before placing it next in the sequence
+The beginning length can be determined by the number of integers present in the glue.
+If the entry is an integer, then place that integer next in the sequence.
+If the entry starts with T, then scale the tiny sequence appropriately, shift by the value given after the T, and remove the proper number of starting integers before placing it next in the sequence.
+If the entry starts with RT, then scale the tiny sequence appropriately, shift by the value given after the T, remove the proper number of starting integers, and then reverse it before placing it next in the sequence.
+If the entry starts with L, then scale the long sequence appropriately, shift by the value given after the L, and remove the proper number of starting integers before placing it next in the sequence.
+If the entry starts with RL, then scale the long sequence appropriately, shift by the value given after the L, remove the proper number of starting integers, and then reverse it before placing it next in the sequence.

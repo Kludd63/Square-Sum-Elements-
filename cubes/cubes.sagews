@@ -227,7 +227,7 @@ def build_new_sequence(seq, glue, cube, beginning_length):
 
     return new_seq
 
-def generate_sequence(text_file, level):
+def generate_sequence(level, text_file):
     file = open(text_file, 'r')
     read_file = file.read().splitlines()
 
@@ -278,16 +278,7 @@ def generate_sequence(text_file, level):
     
 #generate_sequence: reuses the base and glue to create infinitely many sequences
     #inputs
-        #text_file (string): name of the text file created using the create_text_file function
         #level (integer): how many times to use base case and glue (the base case is treated as level 0)
+        #text_file (string): name of the text file created using the create_text_file function
     #output
         #a viable sequence for the given level as a list
-
-
-
-
-
-
-
-
-

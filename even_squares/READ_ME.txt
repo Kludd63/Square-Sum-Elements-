@@ -9,7 +9,7 @@ The provided text files are sufficient to prove that it is always possible to fi
 The glue can be read using the following guidelines:
 The beginning length can be determined by the number of integers present in the glue.
 If the entry is an integer, then place that integer next in the sequence.
-If the entry starts with T, then scale the tiny sequence appropriately, shift by the value given after the T, and remove the proper number of starting integers before placing it next in the sequence.
-If the entry starts with RT, then scale the tiny sequence appropriately, shift by the value given after the T, remove the proper number of starting integers, and then reverse it before placing it next in the sequence.
+If the entry starts with T, then scale the short sequence appropriately, shift by the value given after the T, and remove the proper number of starting integers before placing it next in the sequence.
+If the entry starts with RT, then scale the short sequence appropriately, shift by the value given after the T, remove the proper number of starting integers, and then reverse it before placing it next in the sequence.
 If the entry starts with L, then scale the long sequence appropriately, shift by the value given after the L, and remove the proper number of starting integers before placing it next in the sequence.
 If the entry starts with RL, then scale the long sequence appropriately, shift by the value given after the L, remove the proper number of starting integers, and then reverse it before placing it next in the sequence.

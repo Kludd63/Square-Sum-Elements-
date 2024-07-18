@@ -8,6 +8,8 @@ The folder names are reallitivly self explanitory. They are named after the type
 
 regPairs.ipynb is a Jupyter notebook running on a Sagemath Kernel used to find base pairs
 
+hexGraph.ipynb is a Jupyter notebook running on a Sagemath Kernel that graphs 
+
 GerbiczProof.py is a python program that uses small.py, glues.py, and baseCases.py as imputs to find large Hamiltonian cycles using the algorithim outlined in Robert Gerbicz's proof
       small.py, glues.py, and baseCases.py are copies from Roberts original code, formated to work with our Python code
 
